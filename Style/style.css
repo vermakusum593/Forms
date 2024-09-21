@@ -1,0 +1,113 @@
+
+.outer-container {
+    display: flex;
+    width: 600px;  
+    height: 450px;
+    background-color: #b3c1b2;
+   
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-container1 {
+    width: 60%; 
+    background-color: #a0231c; 
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container {
+    position: relative; 
+    width: 60%; 
+    background-color: #a0231c;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1; 
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+    background-color: #a0231c;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #ccc;
+}
+
+.form-container textarea {
+    height: 80px;
+}
+
+button {
+    background-color: #2d797d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #256667;
+}
+
+.image-container1 {
+    width: 40%; 
+    background-color: #ffa646; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: absolute; 
+    top: 44%; 
+    right: 350px;
+    transform: translateY(-50%); 
+    width: 20%; 
+    background-color:  FFA500; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; 
+    height: 70%;
+}
+
+.image-container img {
+    position: absolute;
+    max-width: 100%;
+   
+    display: block;
+    height: 100%;
+    
+}
+
+
+.flex-container-left {
+    justify-content: flex-start; /* Aligns items to the left */
+}
